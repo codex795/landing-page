@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.first-box{
+    background-color: #1f2937;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.one{
+    font-size: 25px;
+    font-weight: 900;
+}
+.two{
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    gap: 20px;
+    color: rgb(205, 194, 194);
+}
