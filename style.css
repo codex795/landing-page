@@ -1,6 +1,14 @@
 body{
     background-color: black;
     color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .first-box{
@@ -12,18 +20,172 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 10px;
-    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
 }
 
 .one{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 900;
 }
 .two{
     display: flex;
-    font-size: 16px;
+    font-size: 18px;
     list-style: none;
-    gap: 20px;
+    gap: 23px;
     color: rgb(205, 194, 194);
+}
+
+
+.first{
+    display: flex;
+    padding: 120px;
+    padding-left: 28vh;
+    padding-right: 28vh;
+}
+.para1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.para2{
+    font-size: 18px;
+    list-style: none;
+    color: darkgray;
+}
+.f2{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color:#4c4c51;
+    width: 75vh;
+    height: 30vh;
+    font-size: 18px;
+}
+.but1 button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 32px;
+    font-weight: 900;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+
+
+
+.second-box{
+    background-color: #ffffff;
+    color: black;
+}
+
+.inform{
+    background-color: #ffffff;
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 22px;
+    color: #877878;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15vh;
+}
+
+.sbox1{
+    width: 27vh;
+    height: 30vh;
+}
+.sbox{
+    width: 20vh;
+    height: 20vh;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+.third-box{
+    background-color: #e3e3e3;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3{
+    font-size:36px;
+    width: 100vh;
+    height: 20vh;
+    margin: 100px;
+    font-style: italic;
+}
+
+.god{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    justify-content: end;
+}
+
+.four-box{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.four1{
+    border-radius: 10px;
+    width: 130vh;
+    height: 18vh;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.in1{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.in2{
+    font-size: 20px;
+    color: #dadada;
+}
+
+
+.but2 button{
+    background-color: #3882f6;
+    color: white;
+    padding: 7px 32px;
+    font-weight: 900;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.five{
+    font-size: 18px;
+    color: rgb(219, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100%;
+    height: 12vh;
 }
